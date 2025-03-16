@@ -18,3 +18,20 @@
   @apply bg-gradient-to-tr from-blue-500 to-pink-500 
   text-white p-4 h-screen w-[200px];
 }
+
+.table {
+  @apply w-full
+}
+
+.table thead {
+  @apply bg-gray-800 text-white;
+}
+
+.table thead th {
+  @apply px-2 py-1 text-sm;
+}
+
+.table tbody td {
+  @apply px-2 py-1 text-white bg-gray-400 
+  border-b border-gray-100;
+}

@@ -16,6 +16,10 @@ export default function Sidebar() {
                     <i className="fa fa-user mr-2"></i>
                     User
                 </Link>
+                <Link href="/employee">
+                    <i className="fa fa-users mr-2"></i>
+                    Employee
+                </Link>
             </div>
         </div>
     )
